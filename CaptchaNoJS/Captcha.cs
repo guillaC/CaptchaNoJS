@@ -41,7 +41,7 @@ namespace CaptchaNoJS
             MemoryStream result = new MemoryStream();
             canvas.FillColor = getRandomColor();
 
-            for (int i = 0; i < 50; i++)
+            for (int i = 0; i < 30; i++)
             {
                 canvas.StrokeColor = getRandomColor();
                 canvas.StrokeSize = random.Next(2,10);
