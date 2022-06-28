@@ -4,7 +4,24 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>Guillaume Cr</Authors>
+    <Description>CaptchaNoJS protects ASP.NET/Core forms from spam, it's a self-hosted .NET library: no 3rd-party servers are involved in the generation, displaying, and validation of Captcha challenges.</Description>
+    <PackageProjectUrl>https://github.com/guillaC/CaptchaNoJS</PackageProjectUrl>
+    <PackageIcon>ico.png</PackageIcon>
+    <PackageReadmeFile></PackageReadmeFile>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/guillaC/CaptchaNoJS.git</RepositoryUrl>
+    <PackageTags>spam;captcha;captcha-image;spam-prevention;spam-protection;captcha-generator</PackageTags>
+    <AssemblyVersion>1.0</AssemblyVersion>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\ico.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Maui.Graphics" Version="6.0.403" />
